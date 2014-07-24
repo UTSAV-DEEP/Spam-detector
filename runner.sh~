@@ -1,0 +1,6 @@
+#!/bin/sh
+PWD=$(pwd)  # save the previous location
+cd "/media/sda5/MY PROG/Project/Spam-detector"
+java -jar */spamDetector.jar
+# after everything is done, probably near bottom of the script
+cd $PWD  # restore the previous location
